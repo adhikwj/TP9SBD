@@ -9,6 +9,7 @@ import Skills from "./pages/Skills";
 import Blog from "./pages/Blog";
 import Contact from "./pages/Contact";
 import CardGrid from './components/CardGrid';
+import Counter from "./pages/Counter";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path="/blog" element={<Blog />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/cards" element={<CardGrid />} />
+        <Route path="/counter" element={<Counter />} />
       </Routes>
     </Router>
   );

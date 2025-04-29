@@ -20,6 +20,7 @@ return (
         <a href="#skills" onClick={() => (window.location.href = "/skills")} className="hover:text-gray-400">Skills</a>
         <a href="#blog" onClick={() => (window.location.href = "/blog")} className="hover:text-gray-400">Blog</a>
         <a href="#cards" onClick={() => (window.location.href = "/cards")} className="hover:text-gray-400">Card Grid</a>
+        <a href="#counter" onClick={() => (window.location.href = "/counter")} className="hover:text-gray-400">Counter Demo</a>
         <a href="#contact" onClick={() => (window.location.href = "/contact")} className="hover:text-gray-400">Contact</a> 
     </div>
 
@@ -38,6 +39,7 @@ return (
     <a onClick={() => (window.location.href = "/skills")} className="block py-2 text-white">Skills</a>
     <a onClick={() => (window.location.href = "/blog")} className="block py-2 text-white">Blog</a>
     <a onClick={() => (window.location.href = "/cards")} className="block py-2 text-white">Card Grid</a>
+    <a onClick={() => (window.location.href = "/counter")} className="block py-2 text-white">Counter Demo</a>
     <a onClick={() => (window.location.href = "/contact")} className="block py-2 mt-6 text-center bg-blue-500 text-white py-2 rounded">Contact</a>
     </div>
 </header>
